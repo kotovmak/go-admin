@@ -12,6 +12,10 @@ import (
 	"time"
 
 	"github.com/GoAdminGroup/go-admin/modules/system"
+	"github.com/GoAdminGroup/go-admin/template/types"
+	"github.com/GoAdminGroup/go-admin/template/types/form"
+	"github.com/GoAdminGroup/html"
+	"github.com/gin-gonic/gin"
 
 	"github.com/GoAdminGroup/go-admin/modules/logger"
 
@@ -25,10 +29,6 @@ import (
 	"github.com/GoAdminGroup/go-admin/plugins"
 	"github.com/GoAdminGroup/go-admin/plugins/admin/modules/guard"
 	template2 "github.com/GoAdminGroup/go-admin/template"
-	"github.com/GoAdminGroup/go-admin/template/types"
-	"github.com/GoAdminGroup/go-admin/template/types/form"
-	"github.com/GoAdminGroup/html"
-	"github.com/gin-gonic/gin"
 )
 
 func (h *Handler) Plugins(ctx *context.Context) {

@@ -27,7 +27,7 @@ import (
 	"github.com/GoAdminGroup/go-admin/template"
 	"github.com/GoAdminGroup/go-admin/template/chartjs"
 	"github.com/GoAdminGroup/go-admin/tests/tables"
-	"github.com/go-chi/chi"
+	"github.com/go-chi/chi/v5"
 )
 
 func internalHandler() http.Handler {

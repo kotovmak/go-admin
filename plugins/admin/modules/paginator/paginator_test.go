@@ -12,7 +12,7 @@ func TestGet(t *testing.T) {
 	config.Initialize(&config.Config{Theme: "sword"})
 	Get(Config{
 		Size:         105,
-		Param:        parameter.BaseParam().SetPage("7"),
+		Param:        parameter.BaseParam(),
 		PageSizeList: []string{"10", "20", "50", "100"},
 	})
 }
