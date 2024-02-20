@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/GoAdminGroup/go-admin/modules/auth"
-	"github.com/GoAdminGroup/go-admin/modules/config"
 	"github.com/gavv/httpexpect"
+	"github.com/kotovmak/go-admin/modules/auth"
+	"github.com/kotovmak/go-admin/modules/config"
 )
 
 func authTest(e *httpexpect.Expect) *http.Cookie {

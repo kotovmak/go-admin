@@ -7,19 +7,19 @@ import (
 	"os/signal"
 	"time"
 
-	_ "github.com/GoAdminGroup/go-admin/adapter/gin"
-	_ "github.com/GoAdminGroup/go-admin/modules/db/drivers/mysql"
 	_ "github.com/GoAdminGroup/themes/sword"
+	_ "github.com/kotovmak/go-admin/adapter/gin"
+	_ "github.com/kotovmak/go-admin/modules/db/drivers/mysql"
 
-	"github.com/GoAdminGroup/go-admin/engine"
-	"github.com/GoAdminGroup/go-admin/examples/datamodel"
-	"github.com/GoAdminGroup/go-admin/modules/config"
-	"github.com/GoAdminGroup/go-admin/modules/language"
-	"github.com/GoAdminGroup/go-admin/plugins/example"
-	"github.com/GoAdminGroup/go-admin/template"
-	"github.com/GoAdminGroup/go-admin/template/chartjs"
 	"github.com/GoAdminGroup/themes/adminlte"
 	"github.com/gin-gonic/gin"
+	"github.com/kotovmak/go-admin/engine"
+	"github.com/kotovmak/go-admin/examples/datamodel"
+	"github.com/kotovmak/go-admin/modules/config"
+	"github.com/kotovmak/go-admin/modules/language"
+	"github.com/kotovmak/go-admin/plugins/example"
+	"github.com/kotovmak/go-admin/template"
+	"github.com/kotovmak/go-admin/template/chartjs"
 )
 
 func main() {

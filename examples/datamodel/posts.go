@@ -3,13 +3,13 @@ package datamodel
 import (
 	template2 "html/template"
 
-	"github.com/GoAdminGroup/go-admin/context"
-	"github.com/GoAdminGroup/go-admin/modules/db"
-	"github.com/GoAdminGroup/go-admin/plugins/admin/modules/table"
-	"github.com/GoAdminGroup/go-admin/template"
-	"github.com/GoAdminGroup/go-admin/template/types"
-	"github.com/GoAdminGroup/go-admin/template/types/form"
-	editType "github.com/GoAdminGroup/go-admin/template/types/table"
+	"github.com/kotovmak/go-admin/context"
+	"github.com/kotovmak/go-admin/modules/db"
+	"github.com/kotovmak/go-admin/plugins/admin/modules/table"
+	"github.com/kotovmak/go-admin/template"
+	"github.com/kotovmak/go-admin/template/types"
+	"github.com/kotovmak/go-admin/template/types/form"
+	editType "github.com/kotovmak/go-admin/template/types/table"
 )
 
 // GetPostsTable return the model of table posts.

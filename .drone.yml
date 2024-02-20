@@ -62,7 +62,7 @@ steps:
   image: chg80333/goadmin-test:v8
   volumes:
   - name: data
-    path: /go/src/github.com/GoAdminGroup/go-admin/tests/data
+    path: /go/src/github.com/kotovmak/go-admin/tests/data
   environment:
     GO111MODULE: on
     GOPROXY: https://goproxy.cn

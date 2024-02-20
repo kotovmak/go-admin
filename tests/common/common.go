@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"regexp"
 
-	"github.com/GoAdminGroup/go-admin/plugins/admin/modules/form"
 	"github.com/gavv/httpexpect"
+	"github.com/kotovmak/go-admin/plugins/admin/modules/form"
 	"github.com/mgutz/ansi"
 )
 

@@ -12,16 +12,16 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/GoAdminGroup/go-admin/adapter"
-	"github.com/GoAdminGroup/go-admin/context"
-	"github.com/GoAdminGroup/go-admin/engine"
-	"github.com/GoAdminGroup/go-admin/modules/config"
-	"github.com/GoAdminGroup/go-admin/modules/utils"
-	"github.com/GoAdminGroup/go-admin/plugins"
-	"github.com/GoAdminGroup/go-admin/plugins/admin/models"
-	"github.com/GoAdminGroup/go-admin/plugins/admin/modules/constant"
-	"github.com/GoAdminGroup/go-admin/template/types"
 	"github.com/gogf/gf/net/ghttp"
+	"github.com/kotovmak/go-admin/adapter"
+	"github.com/kotovmak/go-admin/context"
+	"github.com/kotovmak/go-admin/engine"
+	"github.com/kotovmak/go-admin/modules/config"
+	"github.com/kotovmak/go-admin/modules/utils"
+	"github.com/kotovmak/go-admin/plugins"
+	"github.com/kotovmak/go-admin/plugins/admin/models"
+	"github.com/kotovmak/go-admin/plugins/admin/modules/constant"
+	"github.com/kotovmak/go-admin/template/types"
 )
 
 // Gf structure value is a Gf GoAdmin adapter.

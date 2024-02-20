@@ -5,13 +5,13 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/GoAdminGroup/go-admin/modules/config"
-	"github.com/GoAdminGroup/go-admin/modules/db"
-	"github.com/GoAdminGroup/go-admin/modules/db/dialect"
-	"github.com/GoAdminGroup/go-admin/plugins/admin/modules/table"
-	"github.com/GoAdminGroup/go-admin/tests/common"
-	"github.com/GoAdminGroup/go-admin/tests/frameworks/fasthttp"
 	"github.com/gavv/httpexpect"
+	"github.com/kotovmak/go-admin/modules/config"
+	"github.com/kotovmak/go-admin/modules/db"
+	"github.com/kotovmak/go-admin/modules/db/dialect"
+	"github.com/kotovmak/go-admin/plugins/admin/modules/table"
+	"github.com/kotovmak/go-admin/tests/common"
+	"github.com/kotovmak/go-admin/tests/frameworks/fasthttp"
 	fasthttp2 "github.com/valyala/fasthttp"
 )
 

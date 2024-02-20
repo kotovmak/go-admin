@@ -9,8 +9,8 @@ import (
 	"path/filepath"
 	"strconv"
 
-	"github.com/GoAdminGroup/go-admin/context"
-	"github.com/GoAdminGroup/go-admin/modules/utils"
+	"github.com/kotovmak/go-admin/context"
+	"github.com/kotovmak/go-admin/modules/utils"
 	"github.com/mgutz/ansi"
 	"github.com/natefinch/lumberjack"
 	"go.uber.org/zap"

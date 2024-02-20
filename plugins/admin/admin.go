@@ -1,18 +1,18 @@
 package admin
 
 import (
-	"github.com/GoAdminGroup/go-admin/context"
-	"github.com/GoAdminGroup/go-admin/modules/config"
-	"github.com/GoAdminGroup/go-admin/modules/service"
-	"github.com/GoAdminGroup/go-admin/modules/system"
-	"github.com/GoAdminGroup/go-admin/modules/utils"
-	"github.com/GoAdminGroup/go-admin/plugins"
-	"github.com/GoAdminGroup/go-admin/plugins/admin/controller"
-	"github.com/GoAdminGroup/go-admin/plugins/admin/modules/guard"
-	"github.com/GoAdminGroup/go-admin/plugins/admin/modules/table"
-	"github.com/GoAdminGroup/go-admin/template/types"
-	"github.com/GoAdminGroup/go-admin/template/types/action"
-	_ "github.com/GoAdminGroup/go-admin/template/types/display"
+	"github.com/kotovmak/go-admin/context"
+	"github.com/kotovmak/go-admin/modules/config"
+	"github.com/kotovmak/go-admin/modules/service"
+	"github.com/kotovmak/go-admin/modules/system"
+	"github.com/kotovmak/go-admin/modules/utils"
+	"github.com/kotovmak/go-admin/plugins"
+	"github.com/kotovmak/go-admin/plugins/admin/controller"
+	"github.com/kotovmak/go-admin/plugins/admin/modules/guard"
+	"github.com/kotovmak/go-admin/plugins/admin/modules/table"
+	"github.com/kotovmak/go-admin/template/types"
+	"github.com/kotovmak/go-admin/template/types/action"
+	_ "github.com/kotovmak/go-admin/template/types/display"
 )
 
 // Admin is a GoAdmin plugin.

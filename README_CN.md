@@ -41,7 +41,7 @@ GoAdmin 可以帮助你的golang应用快速实现数据可视化，搭建一个
 
 ## 谁在使用GoAdmin
 
-[评论这个issue告诉我们](https://github.com/GoAdminGroup/go-admin/issues/71).
+[评论这个issue告诉我们](https://github.com/kotovmak/go-admin/issues/71).
 
 ## 使用
 
@@ -81,17 +81,17 @@ package main
 
 import (
 	"github.com/gin-gonic/gin"
-	_ "github.com/GoAdminGroup/go-admin/adapter/gin"
-	_ "github.com/GoAdminGroup/go-admin/modules/db/drivers/mysql"
-	"github.com/GoAdminGroup/go-admin/engine"
-	"github.com/GoAdminGroup/go-admin/plugins/admin"
+	_ "github.com/kotovmak/go-admin/adapter/gin"
+	_ "github.com/kotovmak/go-admin/modules/db/drivers/mysql"
+	"github.com/kotovmak/go-admin/engine"
+	"github.com/kotovmak/go-admin/plugins/admin"
 	"github.com/GoAdminGroup/themes/adminlte"
-	"github.com/GoAdminGroup/go-admin/modules/config"
-	"github.com/GoAdminGroup/go-admin/template"
-    	"github.com/GoAdminGroup/go-admin/template/chartjs"
-    	"github.com/GoAdminGroup/go-admin/template/types"
-	"github.com/GoAdminGroup/go-admin/examples/datamodel"
-	"github.com/GoAdminGroup/go-admin/modules/language"
+	"github.com/kotovmak/go-admin/modules/config"
+	"github.com/kotovmak/go-admin/template"
+    	"github.com/kotovmak/go-admin/template/chartjs"
+    	"github.com/kotovmak/go-admin/template/types"
+	"github.com/kotovmak/go-admin/examples/datamodel"
+	"github.com/kotovmak/go-admin/modules/language"
 )
 
 func main() {
@@ -153,7 +153,7 @@ func main() {
 </p>
 </details>
 
-更多框架的例子: [https://github.com/GoAdminGroup/go-admin/tree/master/examples](https://github.com/GoAdminGroup/go-admin/tree/master/examples)
+更多框架的例子: [https://github.com/kotovmak/go-admin/tree/master/examples](https://github.com/kotovmak/go-admin/tree/master/examples)
 
 ### 第三步：运行
 
@@ -177,7 +177,7 @@ GO111MODULE=on go run main.go
 
 <strong>QQ群</strong>：[641768714](https://jq.qq.com/?_wv=1027&k=qn8oXyGC)，记得备注加群来意
 
-这里是[开发计划](https://github.com/GoAdminGroup/go-admin/projects)
+这里是[开发计划](https://github.com/kotovmak/go-admin/projects)
 
 <strong>[点击这里申请加微信群（记得备注加群）](http://quick.go-admin.cn/resource/wechat_qrcode_02.jpg)</strong>
 

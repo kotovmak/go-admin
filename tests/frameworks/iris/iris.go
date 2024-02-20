@@ -2,33 +2,33 @@ package iris
 
 import (
 	// add iris adapter
-	_ "github.com/GoAdminGroup/go-admin/adapter/iris"
-	"github.com/GoAdminGroup/go-admin/modules/config"
-	"github.com/GoAdminGroup/go-admin/modules/language"
-	"github.com/GoAdminGroup/go-admin/plugins/admin/modules/table"
+	_ "github.com/kotovmak/go-admin/adapter/iris"
+	"github.com/kotovmak/go-admin/modules/config"
+	"github.com/kotovmak/go-admin/modules/language"
+	"github.com/kotovmak/go-admin/plugins/admin/modules/table"
 
 	// add mysql driver
-	_ "github.com/GoAdminGroup/go-admin/modules/db/drivers/mysql"
+	_ "github.com/kotovmak/go-admin/modules/db/drivers/mysql"
 	// add postgresql driver
-	_ "github.com/GoAdminGroup/go-admin/modules/db/drivers/postgres"
+	_ "github.com/kotovmak/go-admin/modules/db/drivers/postgres"
 	// add sqlite driver
-	_ "github.com/GoAdminGroup/go-admin/modules/db/drivers/sqlite"
+	_ "github.com/kotovmak/go-admin/modules/db/drivers/sqlite"
 	// add mssql driver
-	_ "github.com/GoAdminGroup/go-admin/modules/db/drivers/mssql"
+	_ "github.com/kotovmak/go-admin/modules/db/drivers/mssql"
 	// add adminlte ui theme
 	"github.com/GoAdminGroup/themes/adminlte"
 
-	"github.com/GoAdminGroup/go-admin/template"
-	"github.com/GoAdminGroup/go-admin/template/chartjs"
+	"github.com/kotovmak/go-admin/template"
+	"github.com/kotovmak/go-admin/template/chartjs"
 
 	"net/http"
 	"os"
 
-	"github.com/GoAdminGroup/go-admin/engine"
-	"github.com/GoAdminGroup/go-admin/plugins/admin"
-	"github.com/GoAdminGroup/go-admin/plugins/example"
-	"github.com/GoAdminGroup/go-admin/tests/tables"
 	"github.com/kataras/iris/v12"
+	"github.com/kotovmak/go-admin/engine"
+	"github.com/kotovmak/go-admin/plugins/admin"
+	"github.com/kotovmak/go-admin/plugins/example"
+	"github.com/kotovmak/go-admin/tests/tables"
 )
 
 func internalHandler() http.Handler {

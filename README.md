@@ -57,7 +57,7 @@ We need your help: [https://github.com/GoAdminGroup/docs/issues/1](https://githu
 
 ## Who is using
 
-[Comment the issue to tell us](https://github.com/GoAdminGroup/go-admin/issues/71).
+[Comment the issue to tell us](https://github.com/kotovmak/go-admin/issues/71).
 
 ## How to
 
@@ -98,17 +98,17 @@ package main
 
 import (
 	"github.com/gin-gonic/gin"
-	_ "github.com/GoAdminGroup/go-admin/adapter/gin"
-	_ "github.com/GoAdminGroup/go-admin/modules/db/drivers/mysql"
-	"github.com/GoAdminGroup/go-admin/engine"
-	"github.com/GoAdminGroup/go-admin/plugins/admin"
-	"github.com/GoAdminGroup/go-admin/modules/config"
+	_ "github.com/kotovmak/go-admin/adapter/gin"
+	_ "github.com/kotovmak/go-admin/modules/db/drivers/mysql"
+	"github.com/kotovmak/go-admin/engine"
+	"github.com/kotovmak/go-admin/plugins/admin"
+	"github.com/kotovmak/go-admin/modules/config"
 	"github.com/GoAdminGroup/themes/adminlte"
-	"github.com/GoAdminGroup/go-admin/template"
-	"github.com/GoAdminGroup/go-admin/template/chartjs"
-	"github.com/GoAdminGroup/go-admin/template/types"
-	"github.com/GoAdminGroup/go-admin/examples/datamodel"
-	"github.com/GoAdminGroup/go-admin/modules/language"
+	"github.com/kotovmak/go-admin/template"
+	"github.com/kotovmak/go-admin/template/chartjs"
+	"github.com/kotovmak/go-admin/template/types"
+	"github.com/kotovmak/go-admin/examples/datamodel"
+	"github.com/kotovmak/go-admin/modules/language"
 )
 
 func main() {
@@ -170,7 +170,7 @@ func main() {
 </p>
 </details>
 
-More framework examples: [https://github.com/GoAdminGroup/go-admin/tree/master/examples](https://github.com/GoAdminGroup/go-admin/tree/master/examples)
+More framework examples: [https://github.com/kotovmak/go-admin/tree/master/examples](https://github.com/kotovmak/go-admin/tree/master/examples)
 
 ### Step 3: run
 

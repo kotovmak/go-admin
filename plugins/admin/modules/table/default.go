@@ -11,19 +11,19 @@ import (
 	"strings"
 	"time"
 
-	"github.com/GoAdminGroup/go-admin/modules/config"
+	"github.com/kotovmak/go-admin/modules/config"
 
-	"github.com/GoAdminGroup/go-admin/modules/db"
-	"github.com/GoAdminGroup/go-admin/modules/db/dialect"
-	errs "github.com/GoAdminGroup/go-admin/modules/errors"
-	"github.com/GoAdminGroup/go-admin/modules/language"
-	"github.com/GoAdminGroup/go-admin/modules/logger"
-	"github.com/GoAdminGroup/go-admin/plugins/admin/modules"
-	"github.com/GoAdminGroup/go-admin/plugins/admin/modules/constant"
-	"github.com/GoAdminGroup/go-admin/plugins/admin/modules/form"
-	"github.com/GoAdminGroup/go-admin/plugins/admin/modules/paginator"
-	"github.com/GoAdminGroup/go-admin/plugins/admin/modules/parameter"
-	"github.com/GoAdminGroup/go-admin/template/types"
+	"github.com/kotovmak/go-admin/modules/db"
+	"github.com/kotovmak/go-admin/modules/db/dialect"
+	errs "github.com/kotovmak/go-admin/modules/errors"
+	"github.com/kotovmak/go-admin/modules/language"
+	"github.com/kotovmak/go-admin/modules/logger"
+	"github.com/kotovmak/go-admin/plugins/admin/modules"
+	"github.com/kotovmak/go-admin/plugins/admin/modules/constant"
+	"github.com/kotovmak/go-admin/plugins/admin/modules/form"
+	"github.com/kotovmak/go-admin/plugins/admin/modules/paginator"
+	"github.com/kotovmak/go-admin/plugins/admin/modules/parameter"
+	"github.com/kotovmak/go-admin/template/types"
 )
 
 // DefaultTable is an implementation of table.Table

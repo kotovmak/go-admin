@@ -5,7 +5,7 @@ import (
 	"html/template"
 	"strconv"
 
-	"github.com/GoAdminGroup/go-admin/template/types"
+	"github.com/kotovmak/go-admin/template/types"
 )
 
 type ProgressBar struct {
