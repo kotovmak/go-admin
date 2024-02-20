@@ -10,12 +10,12 @@ import (
 	"time"
 
 	_ "github.com/kotovmak/go-admin/adapter/chi"
+	"github.com/kotovmak/go-admin/examples/datamodel"
 	_ "github.com/kotovmak/go-admin/modules/db/drivers/mysql"
 
 	"github.com/GoAdminGroup/themes/adminlte"
 	"github.com/go-chi/chi/v5"
 	"github.com/kotovmak/go-admin/engine"
-	"github.com/kotovmak/go-admin/examples/datamodel"
 	"github.com/kotovmak/go-admin/modules/config"
 	"github.com/kotovmak/go-admin/modules/language"
 	"github.com/kotovmak/go-admin/plugins/example"
