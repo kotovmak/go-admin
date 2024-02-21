@@ -45,6 +45,7 @@ func Ajax(id string, handler types.Handler) *AjaxAction {
 		Data:   NewAjaxData(),
 		SuccessJS: `if (data.code === 0) {
                                     swal(data.msg, '', 'success');
+																		$.pjax.reload('#pjax-container');
                                 } else {
                                     swal(data.msg, '', 'error');
                                 }`,

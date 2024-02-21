@@ -335,7 +335,6 @@ func (t UserModel) WithMenus() UserModel {
 				LeftJoin("goadmin_menu", "goadmin_menu.id", "=", "goadmin_role_menu.menu_id").
 				WhereIn("goadmin_role_menu.role_id", rolesId).
 				Select("menu_id", "parent_id").
-				Where("parent_id", "!=", "null").
 				All()
 		}
 	}
