@@ -31,6 +31,10 @@ func (h *Handler) RecordOperationLog(ctx *context.Context) {
 		if form != nil {
 			input, _ = json.Marshal((*form).Value)
 		}
+		f := ctx.Request.PostForm
+		if f != nil {
+			input, _ = json.Marshal(f)
+		}
 
 		models.OperationLog().SetConn(h.conn).New(user.Id, ctx.Path(), ctx.Method(), ctx.LocalIP(), string(input))
 	}
