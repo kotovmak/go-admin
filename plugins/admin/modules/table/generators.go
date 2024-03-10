@@ -6,6 +6,7 @@ import (
 	"fmt"
 	tmpl "html/template"
 	"net/url"
+	"reflect"
 	"regexp"
 	"strconv"
 	"strings"
@@ -860,7 +861,11 @@ func (s *SystemTable) GetOpTable(ctx *context.Context) (opTable Table) {
 	users, _ := s.table(config.GetAuthUserTable()).Select("id", "name").All()
 	options := make(types.FieldOptions, len(users))
 	for k, user := range users {
-		options[k].Value = fmt.Sprintf("%v", user["id"])
+		if reflect.TypeOf(user["id"]).String() == "[]uint8" {
+			options[k].Value = string(user["id"].([]uint8))
+		} else {
+			options[k].Value = string(rune(user["id"].(int64)))
+		}
 		options[k].Text = fmt.Sprintf("%v", user["name"])
 	}
 	info.AddSelectBox(language.Get("user"), options, action.FieldFilter("user_id"))
