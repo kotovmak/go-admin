@@ -40,10 +40,10 @@ func DefaultInvoker(conn db.Connection) *Invoker {
 	return &Invoker{
 		prefix: config.Prefix(),
 		authFailCallback: func(ctx *context.Context) {
-			if ctx.Request.URL.Path == config.Url(config.GetLoginUrl()) {
+			if ctx.Request.URL.Path == config.GetLoginUrl() {
 				return
 			}
-			if ctx.Request.URL.Path == config.Url("/logout") {
+			if ctx.Request.URL.Path == "/logout" {
 				ctx.Write(302, map[string]string{
 					"Location": config.Url(config.GetLoginUrl()),
 				}, ``)
