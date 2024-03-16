@@ -110,7 +110,7 @@ func (h *Handler) route(name string) context.Router {
 }
 
 func (h *Handler) routePath(name string, value ...string) string {
-	return h.routes.Get(name).GetURL(value...)
+	return h.config.Prefix() + h.routes.Get(name).GetURL(value...)
 }
 
 func (h *Handler) routePathWithPrefix(name string, prefix string) string {
