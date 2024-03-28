@@ -45,7 +45,7 @@ func DefaultInvoker(conn db.Connection) *Invoker {
 			}
 			if ctx.Request.URL.Path == "/logout" {
 				ctx.Write(302, map[string]string{
-					"Location": config.Url(config.GetLoginUrl()),
+					"Location": config.GetLoginUrl(),
 				}, ``)
 				return
 			}
@@ -54,7 +54,7 @@ func DefaultInvoker(conn db.Connection) *Invoker {
 				param = "?ref=" + url.QueryEscape(ref)
 			}
 
-			u := config.Url(config.GetLoginUrl() + param)
+			u := config.GetLoginUrl() + param
 			_, err := ctx.Request.Cookie(DefaultCookieKey)
 			referer := ctx.Referer()
 
