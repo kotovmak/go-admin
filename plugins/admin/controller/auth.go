@@ -89,7 +89,7 @@ func (h *Handler) Logout(ctx *context.Context) {
 	if err != nil {
 		logger.Error("logout error", err)
 	}
-	ctx.AddHeader("Location", h.config.Url(config.GetLoginUrl()))
+	ctx.AddHeader("Location", config.GetLoginUrl())
 	ctx.SetStatusCode(302)
 }
 

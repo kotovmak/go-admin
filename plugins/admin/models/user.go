@@ -118,7 +118,9 @@ func (t UserModel) Template(str string) string {
 func (t UserModel) CheckPermissionByUrlMethod(path, method string, formParams url.Values) bool {
 
 	// path, _ = url.PathUnescape(path)
-	// path = config.Url(path)
+	if !strings.Contains(path, config.Url("")) {
+		path = config.Url(path)
+	}
 
 	if t.IsSuperAdmin() {
 		return true
